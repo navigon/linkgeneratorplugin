@@ -47,7 +47,7 @@ echo ""
 # creation des dossiers et téléchargements/copies des images
 mkdir -p /var/www/rutorrent/plugins/$NAME/lang/
 mkdir /var/www/rutorrent/plugins/$NAME/images/
-cp -r /root/tmp/images/ /var/www/rutorrent/plugins/$NAME/
+cp -r /tmp/linkgeneratorplugin/images/ /var/www/rutorrent/plugins/$NAME/
         if [ "$VALIDE" = "y" ];
                 then
 ext=${IMGOBLIVION##*.}
