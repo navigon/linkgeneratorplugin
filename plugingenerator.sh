@@ -101,7 +101,7 @@ sed -i "s/@NAME@/$NAME/g;" /var/www/rutorrent/plugins/$NAME/"$NAME"oblivion.css
 cat <<EOF > /var/www/rutorrent/plugins/$NAME/plugin.info
 plugin.description: Plugin Générator for rutorrent
 plugin.author: Dude
-plugin.runlevel: 11
+plugin.runlevel: 13
 plugin.version: 1.00
 rtorrent.remote: error
 need_rtorrent: 0
