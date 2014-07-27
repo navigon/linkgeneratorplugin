@@ -66,7 +66,7 @@ cp /var/www/rutorrent/plugins/$NAME/images/$IMGOBLIVION /var/www/rutorrent/plugi
 # init.js
 cat << EOF > /var/www/rutorrent/plugins/$NAME/init.js
 /* URL de  Subsonic sur le serveur */
-var url = '$LIEN';
+var url = '$URL';
 
 plugin.loadLang(true);
 if (theWebUI.theme) {
