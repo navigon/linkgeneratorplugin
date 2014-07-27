@@ -59,8 +59,8 @@ wget $IMGOBLIVION -O $NAME"oblivion".$ext
         if [ "$VALIDE" = "n" ];
                 then
 ext=${IMGOBLIVION##*.}
-mv /var/www/rutorrent/plugins/$NAME/images/$IMG	/var/www/rutorrent/plugins/$NAME/images/$NAME.$ext			
-mv /var/www/rutorrent/plugins/$NAME/images/$IMGOBLIVION	/var/www/rutorrent/plugins/$NAME/images/$NAME"oblivion".$ext
+cp /var/www/rutorrent/plugins/$NAME/images/$IMG /var/www/rutorrent/plugins/$NAME/images/$NAME.$ext
+cp /var/www/rutorrent/plugins/$NAME/images/$IMGOBLIVION /var/www/rutorrent/plugins/$NAME/images/$NAME"oblivion".$ext
 		fi
 		
 # init.js
