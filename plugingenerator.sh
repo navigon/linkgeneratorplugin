@@ -21,7 +21,7 @@ fi
 echo -e "${GREEN}Destination url du plugin.$END"
 read URL
 echo ""
-echo -e  "${GREEN}Télécharger l'image depuis internet y/n.$END"
+echo -e  "${GREEN}Télécharger les images depuis internet y/n.$END"
 read VALIDE
         if [ "$VALIDE" = "n" ];
 		then	
@@ -36,10 +36,10 @@ echo ""
 		
         if [ "$VALIDE" = "y" ];
                 then
-echo -e "${GREEN}taper l'url de l'image pour le thème par défaut de ruTorrent.$END"
+echo -e "${GREEN}Taper l'url de l'image pour le thème par défaut de ruTorrent.$END"
 read IMG
 echo ""
-echo -e "${GREEN}taper l'url de l'image pour le thème oblivion de ruTorrent.$END"
+echo -e "${GREEN}Taper l'url de l'image pour le thème oblivion de ruTorrent.$END"
 read IMGOBLIVION
 echo ""
 		fi
